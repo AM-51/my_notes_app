@@ -1,8 +1,12 @@
-# My Note - website for your personal use!
+# My Notes website
 
-## Usage:
+## Description:
 
-Notes app.
+Notes website made with React.
+
+## Link:
+
+<a href='https://my-notes-app-netlify.netlify.app/' target='_blank'>My Notes app</a>
 
 ## Contact:
 
