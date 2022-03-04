@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: 200;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-paper {
+  margin: 20px 20%;
+  padding: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.note-paper {
+  width: 300px;
+  min-height: 150px;
+  padding: 10px;
+  margin: 20px;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.add-icon {
+  color: #343d52;
+}
+
+.remove-btn {
+  align-self: flex-start;
+  height: 54px;
+}
+
+.remove-icon {
+  color: #343d52;
+}
+
+.note-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  min-height: 150px;
+  overflow-wrap: anywhere;
+}
+
+.note-title {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.note-noteContent {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.note-date {
+  margin: 0;
+  font-size: 16px;
+}
+
+.modal-container {
+  cursor: pointer;
+}
+
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  min-height: 150px;
+  overflow-wrap: anywhere;
+  padding: 10px;
+  position: fixed;
+  top: 20vh;
+  left: calc(50% - 150px);
+  z-index: 10;
+  cursor: default;
+}
+
+.modal-btn-container {
+  display: flex;
+  align-self: center;
+}
+
+.confirm-icon {
+  color: #343d52;
+}
+
+.cancel-icon {
+  color: #343d52;
+}
+
+.edit-note-title {
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  border: hidden;
+}
+
+.edit-note-noteContent {
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  border: hidden;
+}
+
+.edit-note-title:focus {
+  outline: none;
+}
+
+.edit-note-noteContent:focus {
+  outline: none;
+}
